@@ -6,7 +6,7 @@ title: "Hi, I'm Katherine 👋"
 
 I'm an Electrical Engineering student at the **University of Michigan** (B.S.E., expected December 2027, GPA 3.74). I focus on **embedded systems and sensor hardware**: designing PCBs, sensing circuits and the firmware that ties them together. I'm looking for **summer 2027 internships**.
 
-[📄 Resume](/Fuller_Nov26.pdf){: .btn .btn--primary} [LinkedIn](https://linkedin.com/in/kefuller){: .btn .btn--inverse} [Email](mailto:kefuller@umich.edu){: .btn .btn--inverse}
+[📄 Resume](/Fuller_Nov26.pdf){: .btn .btn--primary} [LinkedIn](https://linkedin.com/in/kefuller0){: .btn .btn--inverse} [Email](mailto:kefuller@umich.edu){: .btn .btn--inverse}
 
 ---
 
