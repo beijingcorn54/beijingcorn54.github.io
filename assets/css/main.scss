@@ -28,7 +28,7 @@ $footer-background-color: $umblue-dark;
 
 // ===== Page background =====
 body {
-  background: linear-gradient(180deg, $umblue 0%, $umblue-dark 100%) fixed;
+  background: $umblue;
   color: $soft-white;
 }
 
