@@ -5,7 +5,11 @@ title: "Hi, I'm Katherine 👋"
 excerpt: "Electrical Engineering @ University of Michigan · Embedded systems, PCBs & sensor hardware"
 ---
 
-I'm an Electrical Engineering student at the **University of Michigan** (B.S.E., expected December 2027, GPA 3.74). I like hardware I can hold: I've designed and hand-soldered PCBs that flew to the stratosphere, I'm building a high-voltage energy meter for a Formula SAE car, and I test control models on real robotic prostheses.
+I'm an Electrical Engineering student at the **University of Michigan** (B.S.E., expected December 2027, GPA 3.74). 
+
+From functional to well-engineered.
+
+I've designed and hand-soldered PCBs that flew to the stratosphere, I'm building a high-voltage energy meter for a Formula SAE car, and I test control models on real robotic prostheses.
 
 I'm looking for **summer 2027 internships** in embedded systems, hardware or electronics manufacturing.
 
