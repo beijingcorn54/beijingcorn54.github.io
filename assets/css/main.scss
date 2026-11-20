@@ -1,0 +1,153 @@
+---
+---
+
+@charset "utf-8";
+
+// ===== Michigan colors =====
+$maize: #FFCB05;
+$umblue: #00274C;
+$umblue-dark: #001B36;
+$umblue-light: #0B3D6E;
+$soft-white: #EEF2F7;
+$muted: #B8C4D6;
+
+// ===== Theme variables =====
+$background-color: $umblue;
+$text-color: $soft-white;
+$primary-color: $maize;
+$link-color: $maize;
+$link-color-hover: #FFE37A;
+$link-color-visited: $maize;
+$masthead-link-color: #ffffff;
+$masthead-link-color-hover: $maize;
+$border-color: rgba(255, 203, 5, 0.35);
+$footer-background-color: $umblue-dark;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// ===== Page background =====
+body {
+  background: linear-gradient(180deg, $umblue 0%, $umblue-dark 100%) fixed;
+  color: $soft-white;
+}
+
+// ===== Header bar =====
+.masthead {
+  background: $umblue-dark;
+  border-bottom: 4px solid $maize;
+}
+.masthead .site-title,
+.masthead__menu-item a {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.masthead .site-title:hover,
+.masthead__menu-item a:hover {
+  color: $maize;
+}
+
+// ===== Headings =====
+.page__title {
+  color: $maize;
+}
+.page__content h2 {
+  color: $maize;
+  border-bottom: 2px solid rgba(255, 203, 5, 0.4);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+}
+.page__content h3 {
+  color: #ffffff;
+  border-left: 4px solid $maize;
+  padding-left: 0.6em;
+  margin-top: 1.6em;
+}
+
+// ===== Text & links =====
+.page__content p,
+.page__content li {
+  color: $soft-white;
+}
+.page__content em {
+  color: $muted;
+}
+.page__content strong {
+  color: #ffffff;
+}
+.page__content a {
+  color: $maize;
+}
+.page__content hr {
+  border-top-color: rgba(255, 203, 5, 0.3);
+}
+
+// ===== Buttons =====
+.page__content a.btn--primary {
+  background: $maize;
+  color: $umblue !important;
+  font-weight: 700;
+  border: 2px solid $maize;
+}
+.page__content a.btn--primary:hover {
+  background: #FFE37A;
+}
+.page__content a.btn--inverse {
+  background: transparent;
+  color: $maize !important;
+  border: 2px solid $maize;
+  font-weight: 700;
+}
+.page__content a.btn--inverse:hover {
+  background: rgba(255, 203, 5, 0.15);
+}
+
+// ===== "At a glance" box =====
+.page__content .notice--info {
+  background: rgba(255, 203, 5, 0.12);
+  border-left: 5px solid $maize;
+  color: $soft-white;
+  box-shadow: none;
+  font-size: 0.95em;
+}
+
+// ===== Skills table =====
+.page__content table {
+  background: transparent;
+  border: none;
+}
+.page__content thead {
+  display: none;
+}
+.page__content td {
+  color: $soft-white;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+// ===== Sidebar profile card =====
+.author__name {
+  color: $maize;
+}
+.author__bio,
+.author__urls a,
+.author__urls-wrapper a {
+  color: $soft-white;
+}
+.author__urls a:hover {
+  color: $maize;
+}
+.author__avatar img {
+  border: 3px solid $maize;
+}
+
+// ===== Footer =====
+.page__footer {
+  background: $umblue-dark;
+  color: $muted;
+  border-top: 4px solid $maize;
+}
+.page__footer a {
+  color: $maize;
+}
