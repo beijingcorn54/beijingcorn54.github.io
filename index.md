@@ -7,7 +7,7 @@ excerpt: "Electrical Engineering @ University of Michigan · Embedded systems, P
 
 I'm an Electrical Engineering student at the **University of Michigan** (B.S.E., expected December 2027, GPA 3.74). 
 
-From functional to well-engineered.
+**From functional to well-engineered.**
 
 I've designed and hand-soldered PCBs that flew to the stratosphere, I'm building a high-voltage energy meter for a Formula SAE car, and I test control models on real robotic prostheses.
 
