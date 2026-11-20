@@ -94,4 +94,4 @@ Electronic Circuits · Digital Logic Design · Computer Organization · Signals 
 
 ## Outside the Lab
 
-Rock climbing and powerlifting with University of Michigan clubs.
+Rock climbing, Gymnastics, and Powerlifting with University of Michigan clubs.
