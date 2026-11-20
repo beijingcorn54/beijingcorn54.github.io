@@ -39,4 +39,59 @@ At competition, a car is disqualified if it draws more than **80 kW for over 100
 - **Onboarding three new members** who joined from a dissolved project: I wrote an LTspice practice circuit with an answer key and give each person feedback, so they're ready for PCB layout in Altium
 
 ### 🦿 Torque Model for Lower-Limb Robotic Prostheses
-*Student Researcher · Locomotor Control Systems Laboratory
+*Student Researcher · Locomotor Control Systems Laboratory (LocoLab) · Jan 2026 – present*
+
+- **Built a MATLAB pipeline** to process motion-capture and force-plate data across **150 trials** (10 subjects × 3 walking speeds × 5 inclines), reconstructing lower-limb kinematics, ground reaction forces, cadence and stride length
+- **Found that cadence and normalized stride length** separate stance-phase knee and ankle torque trajectories more cleanly than treadmill speed. Both can be computed onboard, but current controllers don't use them
+- **Designed a new impedance-based torque model** that adds cadence and stride length as parameters, and benchmarked it against the lab's baseline using VAF and RMSE for every subject, speed and incline
+- **Caught my own analysis bug:** early results looked too good, so I wrote unit tests for each pipeline step, traced the error to un-updated optimization functions, and validated the corrected pipeline by reproducing a published result
+- **Now testing on a physical prosthesis**, using code generated from the lab's control codebase, and analyzing the joint stiffness results across the gait cycle
+
+### 🧮 Verilog Four-Function Calculator
+*Course project · Digital Logic Design (EECS 270) · Apr – May 2026*
+
+- Designed a sequential calculator around finite-state-machine control logic
+- Built arithmetic modules (full adder, adder/subtractor) and a binary-to-seven-segment display driver
+- Verified correctness with ModelSim testbenches
+
+### 🌪️ Wind-Induced Structural Response Modeling
+*Student Researcher · ResLab · Jan – May 2025*
+
+- Contributed to a computational model predicting how large structures respond to extreme wind events like hurricanes and tornadoes
+- Trained a feedforward neural network in PyTorch that reached **98%+ accuracy** predicting continuous functions from synthetic datasets
+
+### 🚌 Bus Tracking Device · MaizeBus
+*Hardware design · Nov 2026 – present*
+
+Designing a new bus-tracking device for MaizeBus, a small bus-tracker startup. *Details coming soon.*
+
+---
+
+## Teaching
+
+- **Grader, Engineering Electromagnetics**, University of Michigan · Fall 2026
+- **Teaching Assistant, General Physics II** (calculus-based E&M), Physics Student Services · Sept 2025 – Jan 2026: co-led discussion and practice sessions for **200+ students**, led exam reviews for 80+ students, and held weekly office hours
+
+## Skills
+
+| | |
+|---|---|
+| **Hardware** | PCB design, hand soldering (SMD & through-hole), CAN, circuit simulation, lathe & mill |
+| **Programming & HDL** | C/C++, Verilog, ARM (LEGv8) Assembly, Python, PyTorch, MATLAB |
+| **Tools** | Altium Designer, LTspice, ModelSim, Arduino, Git |
+| **Languages** | English, Mandarin Chinese |
+
+## Relevant Coursework
+
+Electronic Circuits · Digital Logic Design · Computer Organization · Signals & Systems · Engineering Electromagnetism · Programming & Data Structures · Electronics for Atmospheric & Space Measurements
+
+*Current (Fall 2026):* Digital Integrated Circuits · Digital Signal Processing · Electrical Biophysics
+
+## Education
+
+- **University of Michigan**, B.S.E. Electrical Engineering, expected Dec 2027 · GPA 3.74 · Dean's List & University Honors (multiple terms)
+- **Shanghai Jiao Tong University**, study abroad · May – Aug 2025
+
+## Outside the Lab
+
+Rock climbing and powerlifting with University of Michigan clubs.
