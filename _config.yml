@@ -1,0 +1,36 @@
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air"
+
+title: "Katherine Fuller"
+subtitle: "Electrical Engineering · University of Michigan"
+description: "Electrical Engineering @ University of Michigan | Embedded systems & sensor hardware"
+url: "https://beijingcorn54.github.io"
+
+author:
+  name: "Katherine Fuller"
+  bio: "EE @ University of Michigan. Embedded systems, PCBs & sensor hardware. Seeking summer 2027 internships."
+  location: "Ann Arbor, MI"
+  email: "kefuller@umich.edu"
+  links:
+    - label: "Resume (PDF)"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/Fuller_Nov26.pdf"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/kefuller"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/beijingcorn54"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/kefuller"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/beijingcorn54"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
